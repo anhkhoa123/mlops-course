@@ -1,0 +1,35 @@
+# Moi truong ao
+venv/
+.venv/
+
+# Du lieu
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# Model da train
+*.pkl
+*.joblib
+*.h5
+models/
+
+# Bao mat
+.env
+.env.local
+secrets.yaml
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# He dieu hanh
+.DS_Store
+Thumbs.db
