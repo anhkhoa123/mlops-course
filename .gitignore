@@ -33,3 +33,4 @@ mlartifacts/
 # He dieu hanh
 .DS_Store
 Thumbs.db
+data/db/*.db
